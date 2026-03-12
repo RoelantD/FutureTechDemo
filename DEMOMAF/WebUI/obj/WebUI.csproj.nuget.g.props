@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/home/runner/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/home/runner/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">7.0.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/home/runner/.nuget/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.ml.onnxruntime.gpu.linux/1.24.3/buildTransitive/netstandard2.1/Microsoft.ML.OnnxRuntime.Gpu.Linux.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml.onnxruntime.gpu.linux/1.24.3/buildTransitive/netstandard2.1/Microsoft.ML.OnnxRuntime.Gpu.Linux.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.ml.onnxruntime.foundry/1.24.3/build/netstandard2.1/Microsoft.ML.OnnxRuntime.Foundry.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml.onnxruntime.foundry/1.24.3/build/netstandard2.1/Microsoft.ML.OnnxRuntime.Foundry.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.ml.onnxruntime/1.24.3/build/netstandard2.1/Microsoft.ML.OnnxRuntime.props" Condition="Exists('$(NuGetPackageRoot)microsoft.ml.onnxruntime/1.24.3/build/netstandard2.1/Microsoft.ML.OnnxRuntime.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.telemetry.abstractions/10.4.0/buildTransitive/net8.0/Microsoft.Extensions.Telemetry.Abstractions.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.telemetry.abstractions/10.4.0/buildTransitive/net8.0/Microsoft.Extensions.Telemetry.Abstractions.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.agents.ai.devui/1.0.0-preview.260311.1/buildTransitive/Microsoft.Agents.AI.DevUI.props" Condition="Exists('$(NuGetPackageRoot)microsoft.agents.ai.devui/1.0.0-preview.260311.1/buildTransitive/Microsoft.Agents.AI.DevUI.props')" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,71 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ChatFrontend
+build_property.RootNamespace = ChatFrontend
+build_property.ProjectDir = /home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9BcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9Sb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9fSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/Layout/LoadingSpinner.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTG9hZGluZ1NwaW5uZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-r2l46lu3g7
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9MYXlvdXQvTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-ggpm0ed3jh
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/Pages/Chat/Chat.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DaGF0L0NoYXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-iu7y3i8roi
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/Pages/Chat/ChatCitation.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DaGF0L0NoYXRDaXRhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-kpaeygqwvw
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/Pages/Chat/ChatHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DaGF0L0NoYXRIZWFkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-te0azkav1d
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/Pages/Chat/ChatInput.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DaGF0L0NoYXRJbnB1dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-fculv6b83u
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/Pages/Chat/ChatMessageItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DaGF0L0NoYXRNZXNzYWdlSXRlbS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-t27lb7sx26
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/Pages/Chat/ChatMessageList.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DaGF0L0NoYXRNZXNzYWdlTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-q2ka3n8z9u
+
+[/home/runner/work/FutureTechDemo/FutureTechDemo/DEMOMAF/ChatFrontend/Components/Pages/Chat/ChatSuggestions.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9DaGF0L0NoYXRTdWdnZXN0aW9ucy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-qdbi4ky6g9
