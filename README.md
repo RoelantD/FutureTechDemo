@@ -44,20 +44,20 @@ The workshop uses an [Aspire multiplatform solution](https://aka.ms/aspire) with
 
 1. **Create the solution container**
    ```powershell
-   dotnet new sln -n WorkshopDemo
    mkdir WorkshopDemo
    cd WorkshopDemo
+   dotnet new sln -n WorkshopDemo
    ```
 2. **Add the WebUI project**
    ```powershell
    dotnet new webapi -n WebUI
-   dotnet sln add WorkshopDemo\WebUI\WebUI.csproj 
+   dotnet sln add WebUI\WebUI.csproj
    ```
 3. **Add support libraries**
    * Create a class library for shared settings or host defaults:
      ```powershell
      dotnet new classlib -n Workshop.ServiceDefaults
-     dotnet sln add WorkshopDemo\Workshop.ServiceDefaults\Workshop.ServiceDefaults.csproj
+     dotnet sln add Workshop.ServiceDefaults\Workshop.ServiceDefaults.csproj
      ```
    * Add a second library for the ChatFrontend SPA if desired.
 4. **Reference projects**
@@ -69,7 +69,7 @@ The workshop uses an [Aspire multiplatform solution](https://aka.ms/aspire) with
    * In each host project (WebUI, ChatFrontend) add the `Aspire.Sdk` package and call `builder.AddServiceDefaults();` early in `Program.cs`.
    * Look at `DEMOMAF.AppHost` and `DEMOMAF.ServiceDefaults/Extensions.cs` for examples.
 6. **Open the solution**
-   * Launch in Visual Studio: `start WorkshopDemo.slnx` or open the folder in VS Code.
+   * Launch in Visual Studio: `start WorkshopDemo.sln` or open the folder in VS Code.
 
 The existing `DEMOMAF.slnx` in the repo is a reference showing how the pieces are arranged; you can fork its contents during the workshop.
 
@@ -238,8 +238,9 @@ Encourage participants to modify the workflow type (`BuildConcurrent`, `BuildSeq
 
 1. Clone the repo and open the solution.
 2. Ensure Foundry Local is running and configured (see step 1).
-3. Restore NuGet packages:
+3. Navigate into the demo folder and restore NuGet packages:
    ```powershell
+   cd DEMOMAF
    dotnet restore
    ```
 4. Configure a connection string in `appsettings.Development.json` for `chat-model`.
@@ -250,7 +251,7 @@ Encourage participants to modify the workflow type (`BuildConcurrent`, `BuildSeq
    ```
 5. Start the WebUI project:
    ```powershell
-   dotnet run --project DEMOMAF\WebUI
+   dotnet run --project WebUI\WebUI.csproj
    ```
 6. Browse to `/dev-ui` and `/ag-ui` to experiment.  Try changing the connection string to an OpenAI or Ollama endpoint and restart.
 7. Open the ChatFrontend in a browser (it serves a simple SPA) to interact with the chat agents.
