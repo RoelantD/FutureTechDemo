@@ -44,20 +44,20 @@ The workshop uses an [Aspire multiplatform solution](https://aka.ms/aspire) with
 
 1. **Create the solution container**
    ```powershell
-   dotnet new sln -n WorkshopDemo
    mkdir WorkshopDemo
    cd WorkshopDemo
+   dotnet new sln -n WorkshopDemo
    ```
 2. **Add the WebUI project**
    ```powershell
    dotnet new webapi -n WebUI
-   dotnet sln add WorkshopDemo\WebUI\WebUI.csproj 
+   dotnet sln add WebUI\WebUI.csproj
    ```
 3. **Add support libraries**
    * Create a class library for shared settings or host defaults:
      ```powershell
      dotnet new classlib -n Workshop.ServiceDefaults
-     dotnet sln add WorkshopDemo\Workshop.ServiceDefaults\Workshop.ServiceDefaults.csproj
+     dotnet sln add Workshop.ServiceDefaults\Workshop.ServiceDefaults.csproj
      ```
    * Add a second library for the ChatFrontend SPA if desired.
 4. **Reference projects**
@@ -250,7 +250,7 @@ Encourage participants to modify the workflow type (`BuildConcurrent`, `BuildSeq
    ```
 5. Start the WebUI project:
    ```powershell
-   dotnet run --project DEMOMAF\WebUI
+   dotnet run --project DEMOMAF/WebUI
    ```
 6. Browse to `/dev-ui` and `/ag-ui` to experiment.  Try changing the connection string to an OpenAI or Ollama endpoint and restart.
 7. Open the ChatFrontend in a browser (it serves a simple SPA) to interact with the chat agents.
